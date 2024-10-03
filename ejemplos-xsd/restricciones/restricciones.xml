@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restricciones 
+xsi:noNamespaceSchemaLocation="restricciones.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+
+    <restriccionMinLength>Mas de 10 caracteres</restriccionMinLength>
+    <restriccionEnumeration>linux</restriccionEnumeration>
+    <restriccionMaxExclusive> 9 </restriccionMaxExclusive>
+
+</restricciones>

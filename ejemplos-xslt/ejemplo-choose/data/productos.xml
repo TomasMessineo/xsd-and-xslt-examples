@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xsl" ?>
+
+<carrito 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="productos.xsd" 
+>
+
+    <producto id="00001">
+        <nombre>Arroz</nombre>
+        <cantidad>10</cantidad>
+        <costo>5500</costo>
+        <origen>Argentina</origen>
+    </producto>
+
+    <producto id="00010">
+        <nombre>Atún</nombre>
+        <cantidad>2</cantidad>
+        <costo>3000</costo>
+        <origen>Mexico</origen>
+    </producto>
+
+    <producto id="02412">
+        <nombre>Chocolate</nombre>
+        <cantidad>25</cantidad>
+        <costo>12000</costo>
+        <origen>España</origen>
+    </producto>
+
+    <producto id="11111">
+        <nombre>Caramelo</nombre>
+        <cantidad>80</cantidad>
+        <costo>12000</costo>
+        <origen>Italia</origen>
+    </producto>
+
+    <producto id="22222">
+        <nombre>Puré de Tomate</nombre>
+        <cantidad>100</cantidad>
+        <costo>100000</costo>
+        <origen>Brasil</origen>
+    </producto>
+
+    <producto id="40123">
+        <nombre>Alfajor</nombre>
+        <cantidad>80</cantidad>
+        <costo>12000</costo>
+        <origen>Puerto Rico</origen>
+    </producto>
+
+</carrito>

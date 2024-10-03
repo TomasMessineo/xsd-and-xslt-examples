@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <persona 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="persona.xsd"
+    >
+        
+        <datos>
+            <dni> 22222222 </dni>
+            <telefono> 2281222222 </telefono>
+            <telefono> 2281333333 </telefono>
+            <telefono> 2281444444 </telefono>
+            <domicilio> Calle 212 al lado de mi patio </domicilio>
+            <nombre> Tomás </nombre>
+            <apellido> Messineo </apellido>
+        </datos>
+
+    </persona>

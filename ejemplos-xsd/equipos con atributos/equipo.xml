@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos-arg
+    xsi:noNamespaceSchemaLocation="equipo.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <equipo pais="Argentina">
+        Gran equipo, el mas grande de Argentina.
+        <nombre sigla="CABJ"> Boca Juniors </nombre>
+        <valoracion> 8.5 </valoracion>
+        <deporte> Fútbol </deporte>
+        <deporte> Handball </deporte>
+        <deporte> Futsal </deporte>0
+    </equipo>
+    <equipo pais="Argentina">
+        Gran equipo, pero no es mejor que boca.
+        <nombre sigla="CARP"> River Plate </nombre>
+        <valoracion> 9.0 </valoracion>
+        <deporte> Fútbol </deporte>
+        <deporte> Handball </deporte>
+        <deporte> Futsal </deporte>
+    </equipo>
+    <equipo pais="Argentina">
+        Es un equipo horrible, puaj que asco.
+        <nombre sigla="RAC"> Racing Club </nombre>
+        <valoracion> 8.0 </valoracion>
+        <deporte> Fútbol </deporte>
+        <deporte> Handball </deporte>
+        <deporte> Futsal </deporte>
+    </equipo>
+    <equipo pais="Argentina">
+        No se ni como juega.
+        <nombre sigla="IND"> Independiente </nombre>
+        <valoracion> 8.2 </valoracion>
+        <deporte> Fútbol </deporte>
+        <deporte> Handball </deporte>
+        <deporte> Futsal </deporte>
+    </equipo>
+    <equipo pais="Argentina">
+        <nombre sigla="EDLP"> Estudiantes de La Plata </nombre>
+        <valoracion> 8.0 </valoracion>
+        <deporte> Fútbol </deporte>
+        <deporte> Handball </deporte>
+        <deporte> Futsal </deporte>
+    </equipo>
+    <equipo pais="Argentina">
+        <nombre sigla="GELP"> Gimnasia de La Plata </nombre>
+        <valoracion> 9.0 </valoracion>
+        <deporte> Fútbol </deporte>
+        <deporte> Handball </deporte>
+        <deporte> Futsal </deporte>
+    </equipo>
+
+
+    <descripcion> Estos son algunos de los equipos de Argentina. </descripcion>
+    <division> 1 </division>
+</equipos-arg>

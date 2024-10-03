@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt-js",
+			"label": "Transformation using 'Key'.",
+			"xsltFile": "${command:xslt-xpath.pickXsltFile}",
+			"xmlSource": "${command:xslt-xpath.pickXmlSourceFile}",
+			"resultPath": "${workspaceFolder}/xsl-out/result-key.html",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt-js"
+			]
+		}
+	]
+}

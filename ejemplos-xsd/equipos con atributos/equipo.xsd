@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="equipos-arg">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="equipo" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                        <xs:sequence>
+                            <xs:element name="nombre">
+                                <xs:complexType mixed="true"> <!-- Este elemento complejo lleva mixed ya que tiene texto dentro. -->
+                                    <xs:attribute name="sigla" type="xs:string" default=""/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="valoracion"/>
+                            <xs:element name="deporte" type="xs:string" maxOccurs="5"/>
+                        </xs:sequence>
+                        <xs:attribute name="pais" type="xs:string" fixed="Argentina"/> <!-- Defino al atributo de equipos-arg fuera del sequence de mas abajo, no el de mas arriba -->
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="descripcion" type="xs:string"/>
+                <xs:element name="division" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

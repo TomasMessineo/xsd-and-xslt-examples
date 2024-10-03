@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<partidas
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="partidas_validacion.xsd"
+>
+
+    <partida>
+        <folio>10</folio>
+        <id>1</id>
+        <nombre>Tomás Messineo</nombre>
+        <texto>Esto es un ejemplo de xml validado con el archivo partidas_validacion para luego transformarlo con xslt.</texto>
+        <firma>Tomás Nahuel Messineo</firma>
+    </partida>
+
+</partidas>

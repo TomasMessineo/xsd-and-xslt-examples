@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xsl" ?>
+
+<carrito 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="productos.xsd" 
+>
+
+    <producto id="00001">
+        <nombre>Arroz</nombre>
+        <cantidad>5</cantidad>
+        <costo>5500</costo>
+    </producto>
+
+    <producto id="00010">
+        <nombre>Atún</nombre>
+        <cantidad>2</cantidad>
+        <costo>3000</costo>
+    </producto>
+
+    <producto id="02412">
+        <nombre>Yerba</nombre>
+        <cantidad>10</cantidad>
+        <costo>12000</costo>
+    </producto>
+
+    <producto id="11111">
+        <nombre>Yerba</nombre>
+        <cantidad>10</cantidad>
+        <costo>12000</costo>
+    </producto>
+
+</carrito>

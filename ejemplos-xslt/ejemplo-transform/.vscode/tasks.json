@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt-js",
+			"label": "ejemplo-transform",
+			"xsltFile": "${command:xslt-xpath.pickXsltFile}",  //Acá podría poner ${workspaceFolder}/src/partidas.xsl, para luego no tener que ingresarlo manualmente. 
+			"xmlSource": "${command:xslt-xpath.pickXmlSourceFile}",  // Acá podría poner ${workspaceFolder}/data/partidas.xml, para luego no tener que ingresarlo manualmente.
+			"resultPath": "${workspaceFolder}/xsl-out/result-transformation.html", //La extensión original era XML, pero yo debo cambiarla a html para que el archivo de salida sea un html y no un XML. 
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt-js"
+			]
+		}
+	]
+}

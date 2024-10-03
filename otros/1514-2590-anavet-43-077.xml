@@ -1,0 +1,82 @@
+<fig id="fig1">
+    <!-- Etiqueta <title> para el título de la figura -->
+    <title>
+      <bold>Figura 1: Imagen y Video sobre Otitis en Caninos</bold>
+    </title>
+  
+    <!-- Descripción o subtítulo de la figura usando <caption> -->
+    <caption>
+      <p>
+        Esta figura muestra una imagen representativa de un oído canino afectado por otitis externa, 
+        junto con un video que explica el procedimiento de limpieza. 
+        <xref ref-type="bibr" rid="ref1">Pulido et al. (2010)</xref> y 
+        <xref ref-type="bibr" rid="ref2">Bajwa (2019)</xref> discuten la importancia de 
+        la correcta identificación y tratamiento de esta afección.
+      </p>
+    </caption>
+  
+    <!-- Incluir una imagen usando <graphic> -->
+    <graphic xlink:href="imagen_otitis.png" mimetype="image" mime-subtype="png" 
+      alt-version="thumbnail" orientation="portrait">
+      <alt-text>Imagen de oído afectado por otitis en canino</alt-text>
+      <long-desc xml:lang="es">
+        Una vista ampliada de un oído canino que muestra inflamación y secreción, signos característicos de otitis externa.
+      </long-desc>
+    </graphic>
+  
+    <!-- Incluir un video usando <media> -->
+    <media xlink:href="video_procedimiento_otitis.mp4" mimetype="video" mime-subtype="mp4">
+      <alt-text>Video que muestra el procedimiento de limpieza del canal auditivo en caninos</alt-text>
+      <long-desc xml:lang="es">
+        Este video muestra el proceso paso a paso para limpiar el canal auditivo de un perro afectado por otitis externa, 
+        destacando las técnicas recomendadas por especialistas en dermatología veterinaria.
+      </long-desc>
+    </media>
+  
+    <!-- Referencias cruzadas a las citas bibliográficas (biblio references) -->
+    <xref ref-type="bibr" rid="ref1">Pulido et al. (2010)</xref>
+    <xref ref-type="bibr" rid="ref2">Bajwa (2019)</xref>
+  </fig>
+  
+  <!-- Bibliografía relacionada -->
+  <biblio>
+    <ref id="ref1">
+      <element-citation publication-type="journal">
+        <person-group person-group-type="author">
+          <name>
+            <surname>Pulido</surname>
+            <given-names>C.</given-names>
+          </name>
+          <name>
+            <surname>Martínez</surname>
+            <given-names>A.</given-names>
+          </name>
+        </person-group>
+        <article-title>Evolución de la otitis externa en caninos</article-title>
+        <source>Revista Veterinaria</source>
+        <year>2010</year>
+        <volume>25</volume>
+        <issue>3</issue>
+        <fpage>115</fpage>
+        <lpage>120</lpage>
+      </element-citation>
+    </ref>
+  
+    <ref id="ref2">
+      <element-citation publication-type="journal">
+        <person-group person-group-type="author">
+          <name>
+            <surname>Bajwa</surname>
+            <given-names>J.</given-names>
+          </name>
+        </person-group>
+        <article-title>Otitis crónica en caninos: una revisión clínica</article-title>
+        <source>Journal of Veterinary Medicine</source>
+        <year>2019</year>
+        <volume>32</volume>
+        <issue>2</issue>
+        <fpage>78</fpage>
+        <lpage>85</lpage>
+      </element-citation>
+    </ref>
+  </biblio>

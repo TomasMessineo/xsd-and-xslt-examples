@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="restricciones">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="restriccionMinLength">
+                    <xs:simpleType> <!-- Indico que el elemento "restriccion" es un elemento simple para poder aplicarle restricciones.--> 
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="10"></xs:minLength>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="restriccionEnumeration">
+                    <xs:simpleType> <!-- Indico que el elemento "restriccion" es un elemento simple para poder aplicarle restricciones.--> 
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="windows"/>
+                            <xs:enumeration value="linux"/>
+                            <xs:enumeration value="android"/>
+                            <xs:enumeration value="macOS"/>
+                            <xs:enumeration value="iOS"/>
+                            <xs:maxLength value="15"></xs:maxLength> <!--No es adecuado tener esta restricción acá ya que nunca se valdiará, pero la dejo para mostrarlo.-->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            
+                <xs:element name="restriccionMaxExclusive">
+                    <xs:simpleType> <!-- Indico que el elemento "restriccion" es un elemento simple para poder aplicarle restricciones.--> 
+                        <xs:restriction base="xs:integer">
+                            <xs:maxExclusive value="10"/> <!--El maxExclusive indica que se podrán ingresar valores MENORES a 10. El 10 NO se incluye, es decir, no puede ser utilizado.-->
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
